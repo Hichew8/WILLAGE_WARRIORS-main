@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from ocr import analyzeImageAndExtractText
 from llama_integration import get_intro_prompt, handle_user_input, send_llama_request, format_prompt, init_llama
 
 
